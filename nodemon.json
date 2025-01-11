@@ -1,0 +1,6 @@
+{
+  "watch": ["app/**/*", "components/**/*", "lib/**/*"],
+  "ext": "ts,tsx,js,jsx,json,css",
+  "ignore": [".git", "node_modules/**/node_modules", ".next"],
+  "exec": "npx next dev"
+}
