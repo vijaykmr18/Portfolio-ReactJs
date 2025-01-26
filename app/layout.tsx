@@ -5,6 +5,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import VideoBackground from './components/video-background'
 import { Toaster } from 'sonner'
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Footer />
         </div>
         <Toaster position="top-right" />
+        <Analytics/>
       </body>
     </html>
   )
